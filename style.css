@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+}
+
+#description{
+    background-color: #FFFFFF;
+    border: #FFFFFF solid 30px;
+    border-radius: 2%;
+    color: black;
+}
+
+.my-img{
+    margin-top: 3rem;
+    width: 400px;
+}
+
+.my-desc{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.my-desc h4{
+    margin-bottom: 2rem;
+}
+
+.social{
+    padding-bottom: 2rem;
+}
+
+.social a{
+    margin-right: 0.8rem;
+    color: white;
+}
+
+.social a:hover{
+    color: purple;
+}
+
+.navbar-nav{
+    margin-right: 5rem;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    color: purple;
+}
+
+/* Cards */
+
+.container-skills{
+    text-align: center;
+}
+
+.container-skills{
+    margin-top: 2rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    color: black;
+}
+
+.card {
+    height: 250px;
+    margin-right: 1.3rem;
+    margin-top: 2rem;
+    border-radius: 10%;
+}
+
+.htmls{
+    color: orange;
+    margin-top: 1rem;
+}
+
+.reacts{
+    color: aqua;
+    margin-top: 1rem;
+}
+
+.nodes{
+    color: green;
+    margin-top: 1rem;
+}
+
+.pythons{
+    color: yellowgreen;
+    margin-top: 1rem;
+}
+
+/* Insights */
+
+#insights{
+    background-color: white;
+    color: black;
+}
+
+.insights{
+    text-align: center;
+}
+
+.insights h1{
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+}
+
+.video{
+    width: 550px;
+    height: 338px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footer h3{
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1030px) {
+    .card {
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .my-img{
+        width: 200px;
+    }
+
+    .about-me{
+        font-size: 14px;
+    }
+
+    .card{
+        margin-left: 4rem;
+        height: 280px;
+    }
+
+    .video{
+        width: 280px;
+        height: 235px;
+    }
+  }
