@@ -1,1 +1,3 @@
-# Projeto-01-Lessons-Learned
+# Projeto Lessons Learned
+
+![Project Lessons Learned](./lessonslearned.png)
